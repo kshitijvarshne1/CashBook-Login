@@ -11,6 +11,8 @@ body {
 }
 .sidebar img {
   padding: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
   margin-top: 10px;
   margin-left: 35px;
 }
@@ -31,4 +33,79 @@ body {
   margin-left: 50px;
   margin-right: 40px;
   color: rgb(95, 95, 95);
+}
+.feature {
+  margin-top: 10px;
+  margin-left: -50px;
+  display: flexbox;
+}
+h3 {
+  margin-left: 150px;
+  margin-top: -75px;
+  opacity: 0.7;
+}
+.signup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25em;
+  height: 22em;
+  margin-top: -12em;
+  margin-left: 36em;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 2px solid #fff;
+}
+.login {
+  font-size: 20px;
+  width: 90%;
+  margin-left: 123vh;
+  margin-top: -520px;
+  margin-bottom: 700px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.ent {
+  text-decoration: black;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: -100px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.btn {
+  position: relative;
+  margin-top: 70px;
+  margin-bottom: -10px;
+  margin-left: 250px;
+  font-size: large;
+  height: 20%;
+  width: 20%;
+  color: blue;
+}
+#phone {
+  height: 8%;
+  width: 50%;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+#btn {
+  background-color: blue;
+  font-size: 20px;
+  border: none;
+  color: white;
+  padding: 5px 25px;
+  border-radius: 5px;
+  opacity: 0.7;
+}
+.rest {
+  margin-left: 30px;
+  margin-right: 20px;
+  font-size: 15px;
 }
